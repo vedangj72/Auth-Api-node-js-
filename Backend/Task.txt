@@ -1,0 +1,35 @@
+(1. Router
+all the paths are / only(from single router.js )
+[get ,post ,put,update,delete];
+
+Way of doing task 
+
+for our auth model we have to set 
+
+1.post request (/login)
+2.post request (/signin)
+
+login component in controller 
+
+signin component in jwt
+
+In diff folder see the wrokflow study past code 
+
+see through tut and confirm from docs and gpt 
+
+3.models in mongodb
+4. front end form using use form and protected routing
+)
+
+
+
+
+Our approach
+>Backend(main backend folder )
+Configure/configure.js all the data(pass, port)
+Controller/userController.js controll or the functionality of the code main functions like login signup with (req,res)=> callback 
+Router/userDataRoute.js routes the user data with express.Router() holding this in const  and export this const
+
+
+index.js main file of backend (server) using middleware use.('url need to add',router);
+
